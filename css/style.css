@@ -181,30 +181,7 @@
  }
 
 
- .icon-list{
-  display: flex;
-  gap: 24px;
-
- }
-
- .icon-item{
-  width: 40px;
-  height: 40px;
-
- }
-
- .icon-link{
-  width: 100%;
-  height: 100%;
-  background-color: #4D5AE5;
-  border-radius: 50%;
-  display: flex;
- }
-
- .icon-icon{
-
- }
-
+ 
 
  .visually-hidden{
         position: absolute;
@@ -262,6 +239,38 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   
+  }
+
+  .icon-list{
+    display: flex;
+    gap: 24px;
+    
+   }
+  
+   .icon-item{
+    display: flex;
+    width: 40px;
+    height: 40px;
+  
+   }
+  
+   .icon-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  
+   .icon-icon{
+    fill: #ffff;
+  
+   }
+  
+  .icon-link:hover{
+    background-color: #404BBF;
   }
   
   
@@ -335,6 +344,31 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+  }
+
+  .icon-foot{
+    display: flex;
+    gap: 16px;
+  }
+
+  .icon-item-foot{
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-link-foot{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-icon-foot{
+    fill: #ffff;
   }
 
  
