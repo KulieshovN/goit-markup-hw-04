@@ -1,7 +1,9 @@
 .header {
     border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -244,6 +246,7 @@
   .icon-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
     
    }
   
@@ -346,6 +349,20 @@
     color: #4d5ae5;
   }
 
+  .team-dream-foot{
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffff;
+  }
+
   .icon-foot{
     display: flex;
     gap: 16px;
@@ -371,4 +388,21 @@
     fill: #ffff;
   }
 
+  ..container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-container {
+    padding: 0 120px;
+  }
+
+  .left-side {
+    flex-grow: 1;
+  }
+  
+  .right-side {
+    flex-shrink: 0;
+  }
  
