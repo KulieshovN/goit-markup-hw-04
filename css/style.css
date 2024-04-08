@@ -348,17 +348,12 @@
   }
 
   .team-dream-foot{
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    font-family: ;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: #FFFFFF;
+    margin-bottom: 16px;
   }
 
   .icon-foot{
@@ -392,8 +387,7 @@
 
   .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
   }
 
   .left-side {
