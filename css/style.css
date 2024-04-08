@@ -154,7 +154,7 @@
     cursor: pointer;
   }
   
-  .btn:hover .btn:focus {
+  .btn:hover, .btn:focus {
     background-color: #404BBF;
   }
   .section-with-classes button {
@@ -394,7 +394,7 @@
     fill: #f4f4fd;
   }
 
-  .container {
+  .container-foot {
     display: flex;
     align-items: baseline;
   }
