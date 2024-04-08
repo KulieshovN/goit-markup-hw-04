@@ -347,13 +347,13 @@
     color: #4d5ae5;
   }
 
-  .team-dream-foot{
-    margin-bottom: 16px;
+  .teams-dream-foot{
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
   }
 
   .icon-foot{
@@ -385,7 +385,7 @@
   }
 
   .icon-icon-foot{
-    fill: #ffff;
+    fill: #f4f4fd;
   }
 
   .container {
