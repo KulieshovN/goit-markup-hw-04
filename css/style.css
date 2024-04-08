@@ -348,12 +348,12 @@
   }
 
   .team-dream-foot{
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
   }
 
   .icon-foot{
@@ -378,6 +378,9 @@
     justify-content: center;
   }
   .icon-link-foot:hover{
+    background-color: #31D0AA;
+  }
+  .icon-link-foot:focus{
     background-color: #31D0AA;
   }
 
