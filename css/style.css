@@ -358,7 +358,7 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #ffff;
+    color: #ffffff;
   }
 
   .icon-foot{
@@ -396,15 +396,9 @@
     align-items: center;
   }
 
-  .flex-container {
-    padding: 0 120px;
-  }
-
   .left-side {
-    flex-grow: 1;
+    margin-right: 120px;
   }
   
-  .right-side {
-    flex-shrink: 0;
-  }
+ 
  
