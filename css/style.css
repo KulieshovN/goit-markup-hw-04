@@ -314,10 +314,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
   
    .icon-icon{
-    fill: #ffff;
+    fill: #f4f4fd;
   
    }
   
@@ -325,7 +326,9 @@
     background-color: #404BBF;
   }
   
-  
+  .icon-link:focus{
+    background-color: #404BBF;
+  }
   
   .teams-dream{
     margin-bottom: 72px;
@@ -344,6 +347,10 @@
     list-style: none;
     padding: 0;
   }
+
+  .list-team .img-list:first-child {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
   .section-portf{
     padding-top: 120px;
