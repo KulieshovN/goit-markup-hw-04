@@ -314,7 +314,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
   
    .icon-icon{
@@ -364,42 +363,37 @@
     row-gap: 48px;
 
   }
+  .img-portf{
+    width: calc((100% - 48px) / 3); 
 
-  .list-portf li:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+  }
 
-.img-portf-card1 {
-  position: relative;
-  overflow: hidden;
-}
+  .img-portf:hover .sellers-cover-text {
+    transform: translateY(0);
+  }
 
-.img-portf-card1 p {
-  position: absolute;
-  top: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  padding: 40px 32px;
-  background-color: #4d5ae5;
-  height: 100%;
-  width: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.img-portf-card1:hover p {
-  transform: translateY(0%);
-}
+  .sellers-cover-wrap{
+    position: relative;
+  }
 
-.list-item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  .sellers-cover-text{
+    position: absolute;
+    top: 0;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    height: 100%;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transform: translateY(100%);
 
-.list-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+  }
+
   
   .employee-info-twoo{
     padding: 32px 16px;
