@@ -369,12 +369,12 @@
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.img-portf {
+.img-portf-card1 {
   position: relative;
   overflow: hidden;
 }
 
-.img-portf p {
+.img-portf-card1 p {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -389,13 +389,17 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-portf:hover p {
+.img-portf-card1:hover p {
   transform: translateY(0%);
 }
-  .img-portf{
-    width: calc((100% - 48px) / 3); 
 
-  }
+.list-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
   
   .employee-info-twoo{
     padding: 32px 16px;
